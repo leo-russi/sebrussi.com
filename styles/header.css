@@ -1,0 +1,112 @@
+
+/* HEADER.CSS */
+
+.navBg{
+    background-color: #000 !important;
+}
+
+.logo{
+    /* width: 160px; */
+    width: 170px;
+    /* width: 180px; */
+    /* width: 185px; */
+    /* margin-top: -40px; */
+    margin-top: -10px;
+
+}
+
+@media (max-width: 900px){
+    
+.logo{
+        /* width: 160px; */
+        width: auto;
+        height: 50px;
+        /* width: 180px; */
+        /* width: 185px; */
+        /* margin-top: -40px; */
+        margin-top: 0px;
+    }
+}
+
+
+.nav-link.my-header{
+    color: rgba(255, 255,255, 0.6) !important;
+}
+.nav-link.my-header:hover{
+    color: rgba(255, 255,255, 0.9) !important;
+}
+.nav-link.my-header:focus{
+    color: rgba(255, 255,255, 0.9) !important;
+}
+.nav-link.my-header.active{
+    color: rgba(255, 255,255, 0.9) !important;
+}
+
+/* dropdown myaccount menu */
+.my-account {
+    position: relative;
+}
+.my-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000;
+    color:#fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.my-dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.my-dropdown-content a:hover {background-color: #333;}
+
+.my-account:hover .my-dropdown-content {display: block;}
+/* end - dropdown myaccount menu */
+
+.langIcon{
+    
+    padding: 15px 8px 0px 15px;
+    color: #cdcdcd;
+}
+
+@media (max-width: 992px){
+    .langIcon{
+        padding: 15px 8px 0px 0px;
+    }
+}
+
+
+.lang{
+    padding-right: 3px !important;
+    padding-left: 3px !important;
+    cursor: pointer;
+    color: rgba(255, 255,255, 0.5) !important;
+}
+
+.lang:hover{
+    color: rgba(255, 255,255, 0.9) !important;
+
+}
+
+.active{
+    color: rgba(255, 255,255, 0.9) !important;
+}
+
+.onlyMobile{
+    display: none;
+}
+
+@media (max-width: 992px){
+    .onlyMobile{
+        display: inline-block;
+        color: rgba(255, 255,255, 0.9) !important;
+    }
+}
+
+/* END HEADER */
+

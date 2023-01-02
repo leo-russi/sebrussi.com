@@ -1,0 +1,129 @@
+
+/* ABOUT.CSS */
+
+.divCols{
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 1920px;
+    margin: auto auto;
+    /* margin: 0 0; */
+}
+
+.leftDiv {
+    flex: 1 ;
+    /* background-color: #333; */
+    background-color: #000;
+    overflow: hidden;
+    /* width: 100%;
+    min-height: 600px; */
+    
+    /* composes: borderL; */
+    /* border: 1px solid red; */
+}
+
+.sebiImg{
+    margin: 0px auto;
+    width: 100%;
+    /* height: 700px; */
+    /* object-fit: cover; */
+}
+
+.rightDiv {
+    flex: 1 ;
+    /* background-color: #333; */
+    background-color: #000;
+    width: 100%;
+    /* composes: borderL; */
+    /* border: 1px solid yellow; */
+}
+
+.motto{
+    padding: 35px 0px;
+    margin: auto auto;
+    color: #fff;
+    font-size: 80px;
+    font-weight: bold;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.letsWorkout{
+    padding: 20px ;
+    margin: auto auto;
+    width: 100%;
+    text-align: center;
+    /* border: 1px solid yellow; */
+}
+
+.letsWorkoutTitle{
+    font-size: 32px;
+}
+
+.about{
+    margin: auto auto;
+    width: 100%;
+    color: #eee;
+}
+
+.innerAbout{
+    margin: auto auto;
+    padding: 0px 0px 100px 0px;
+    width: 100%;
+    text-align: center;
+}
+ /* 
+.sebiImg{
+    
+    object-position: 50% -180px; 
+} */
+
+
+@media only screen and (max-width: 1280px) {
+
+    /* .sebiImg{
+        
+        object-position: 50% -180px;
+    } */
+}
+    
+    
+@media only screen and (max-width: 768px) {
+    
+    
+    /* .sebiImg{
+        
+         object-position: 50% -100px; 
+        
+    } */
+    
+    .motto{
+        padding: 0px 0px;
+        font-size: 60px;
+    }
+
+    .letsWorkoutTitle{
+        font-size:22px
+    }
+
+    .innerAbout{
+        padding: 20px;
+    }
+
+}
+    
+@media only screen and (max-width: 420px) {
+    
+    /* .sebiImg{
+        object-position: 50% 0;
+        object-fit: cover;
+    } */
+    .letsWorkoutTitle{
+        font-size:20px
+    }
+}
+
+/* END ABOUT */
+

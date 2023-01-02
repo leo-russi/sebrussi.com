@@ -1,0 +1,78 @@
+{
+    "header": {
+        "en": {
+            "products": "Products",
+            "services": "Services",
+            "about": "About",
+            "contact": "Contact",
+            "login": "Log in",
+            "logout": "Log out",
+            "create": "Sign Up",
+            "myaccount": "My Account",
+            "settings": "Settings"
+        },
+        "it": {
+            "products": "Prodotti",
+            "services": "Servizi",
+            "about": "Chi sono",
+            "contact": "Contattaci",
+            "login": "Log in",
+            "logout": "Esci",
+            "create": "Crea Account",
+            "myaccount": "Il mio Account",
+            "settings": "Impostazioni"
+        },
+        "fr": {
+            "products": "Produits",
+            "services": "Services",
+            "about": "Moi Connaître",
+            "contact": "Contactez nous",
+            "login": "Accéder",
+            "logout": "Se déconnecter",
+            "create": "Créer Compte",
+            "myaccount": "Mon Compte",
+            "settings": "Paramètres"
+        }
+    },
+    "footer": {
+        "en": {
+            "terms": "Terms & Policies",
+            "termslink": "Terms of Service",
+            "policylink": "Privacy Policy",
+            "agreementlink": "Subscriber Agreement",
+            "contact": "Contact",
+            "faq": "FAQ",
+            "support": "Support",
+            "supportuser": "Using SEBFITNESS",
+            "supportadmin": "Account administration",
+            "company":"Company",
+            "follow":"Keep in touch"
+        },
+        "it": {
+            "terms": "Termini e Condizioni",
+            "termslink": "Termini del Servizio",
+            "policylink": "Privacy",
+            "agreementlink": "Abbonamento",
+            "contact": "Contattaci",
+            "faq": "FAQ",
+            "support": "Supporto",
+            "supportuser": "Utilizzare SEBRUSSI",
+            "supportadmin": "Amministrazione dell'account",
+            "company":"Azienda",
+            "follow":"Keep in touch"
+        },
+        "fr": {
+            "terms": "Mentions légales",
+            "termslink": "Conditions du service",
+            "policylink": "Données personnelles",
+            "agreementlink": "Conditions d'abonnement",
+            "contact": "Contactez nous",
+            "faq": "Aide (FAQ)",
+            "support": "Assistance",
+            "supportuser": "Utilisation de SEBRUSSI",
+            "supportadmin": "Administration du Compte",
+            "company":"Entreprise",
+            "follow":"Keep in touch"
+        }
+    }
+}
