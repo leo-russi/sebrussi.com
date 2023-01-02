@@ -30,7 +30,7 @@ export default function Index({lang}){
                                 <div className="card-img-overlay" >
                                     <h5 className="card-title">{loc.training}</h5>
                                     <p className="card-text">{loc.trainingMsg}</p>
-                                    <p className="card-text getStartedText"><Link href={`/${lang}/services`}>{loc.btnGetStarted}</Link></p>
+                                    <p className="card-text getStartedText"><Link href={`/${lang}/Services`}>{loc.btnGetStarted}</Link></p>
                                 </div>
                             </div>
                             <div className="card bg-dark text-white" >
@@ -38,7 +38,7 @@ export default function Index({lang}){
                                 <div className="card-img-overlay" >
                                     <h5 className="card-title">{loc.apparel}</h5>
                                     <p className="card-text">{loc.apparelMsg}</p>
-                                    <p className="card-text getStartedText"><Link href={`/${lang}/products`}>{loc.btnGetComfortable}</Link></p>
+                                    <p className="card-text getStartedText"><Link href={`/${lang}/Products`}>{loc.btnGetComfortable}</Link></p>
                                 </div>
                             </div>
                         </div>
