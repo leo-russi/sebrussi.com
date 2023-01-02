@@ -3,7 +3,7 @@ import style from '../styles/home.module.css'
 import locale from '../localeData/HomeLoc.js'
 
 
-export default function sebiHome({lang}){
+export default function Index({lang}){
 
     const loc = locale[lang]
     return (
