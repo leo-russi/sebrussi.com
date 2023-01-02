@@ -10,8 +10,8 @@ const ITEXT = ({lang}) => <div>
     </>}
     {lang == 'fr' && <>
         <p>Toutes les commandes passées sont éligibles à une période de retour étendue à 14 jours à partir de la date de livraison.</p>
-        <p>Tout en permettant le test de portabilité, il sera une condition nécessaire pour le retour que le produit n'a pas été utilisé ou lavé.</p>
-        <p>Les frais d'expédition seront à la charge du client, qui peut utiliser le système postal national et le tarif le moins cher.</p>
+        <p>Tout en permettant le test de portabilité, il sera une condition nécessaire pour le retour que le produit n&apos;a pas été utilisé ou lavé.</p>
+        <p>Les frais d&apos;expédition seront à la charge du client, qui peut utiliser le système postal national et le tarif le moins cher.</p>
         <p>Le remboursement comprendra uniquement le coût du produit et non les frais accessoires.</p>
     </>}
     {lang == 'it' && <>

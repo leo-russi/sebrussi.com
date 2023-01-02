@@ -18,7 +18,7 @@ const About = ({lang}) => {
                 </div>
                 <div className={style.rightDiv} >
                     <div className={style.motto}>
-                        <div className={style.letsWorkout}>Let's workout!</div>
+                        <div className={style.letsWorkout}>Let&apos;s workout!</div>
                         <div className={style.letsWorkout + ' ' + style.letsWorkoutTitle} >{lc.about}</div>
                     </div>
                     <div className={style.about}>

@@ -18,7 +18,7 @@ const Contact = ({lang}) => {
                     </div>
                     <div className={style.rightDiv}>
                         <div className={style.motto}>
-                            <div className={style.letsTalk}>Let's talk</div>
+                            <div className={style.letsTalk}>Let&apos;s talk</div>
                             <div className={style.letsTalkEmail} >contact@sebrussi.com</div>
                         </div>
                         <div className={style.contact}>
@@ -27,8 +27,6 @@ const Contact = ({lang}) => {
                                 <div className={`${style.keepInTouch} ${style.keepInTouchSmaller}`} >
                                     <a href="https://www.instagram.com/sebrussi/" target="_blank" rel="noreferrer noopener" style={{color:'#fff'}} aria-label="instagram"><img src="/images/ig_white.svg" style={{width:36, height:36, marginRight:30}}></img></a>
                                     <a href="https://www.facebook.com/SebRussiFitness/" target="_blank" rel="noreferrer noopener" style={{color:'#fff'}} aria-label="facebook"><img src="/images/fb_white.png" style={{width:36, height:36, marginRight:30}}></img></a>
-                                    {/* <a href="https://www.instagram.com/sebrussi/" target="_blank" rel="noreferrer noopener" style={{color:'#fff'}} aria-label="instagram"><i className="fa fa-instagram fa-2x" aria-hidden="true" style={{paddingRight:30, color:'#da0050'}}></i></a>
-                                    <a href="https://www.facebook.com/SebRussiFitness/" target="_blank" rel="noreferrer noopener" style={{color:'#fff'}} aria-label="facebook"><i className="fa fa-facebook-official fa-2x" aria-hidden="true" style={{paddingRight:0, color:'#3578E5'}}></i></a> */}
                                 </div>
                                 <div className={style.keepInTouch} >Visit <img src="/images/logo-crop.jpg" style={{width:100}} /> Apparel</div>
                                 <div className={`${style.keepInTouch} ${style.keepInTouchSmaller}`} >
