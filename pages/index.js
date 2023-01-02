@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import style from '../styles/home.module.css'
+import style from '../styles/Home.module.css'
 import locale from '../localeData/HomeLoc.js'
 
 
