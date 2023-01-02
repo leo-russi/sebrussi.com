@@ -16,7 +16,8 @@ export default {
                     subheader:"What you get and how it works",
                     //// desc:["Evaluation questionnaire ", "Training plan", "Diet plan", "24/7 online support |via email, WhatsApp and phone (in english and italian)", "Weekly feedback", "Monthly check for adjusting and updating your plans"],
                     //desc:["Evaluation questionnaire ", "Training plan", "Nutrional advices", "Support", "Feedback on training", "Check for adjusting and updating your plans"]
-                    desc:["Dedicated support only for few (max 10 clients/month) and only in English and Italian","Evaluation questionnaire", "Training plan", "Nutrional advices","24/7 real-time (best effort) support via email, WhatsApp or phone","Daily feedback on training","Weekly check for adjusting and updating your plans"]
+                    //desc:["Dedicated support only for few (max 10 clients/month) and only in English and Italian","Evaluation questionnaire", "Training plan", "Nutrional advices","24/7 real-time (best effort) support via email, WhatsApp or phone","Daily feedback on training","Weekly check for adjusting and updating your plans"],
+                    desc:["Evaluation questionnaire","Training plan", "Nutrional advices","24/7 real-time (best effort) support via email, WhatsApp or phone","Daily feedback on training","Weekly check for adjusting and updating your plans"]
                 },
                 plans: {
                     // Beginnero:"I would like to try but I am still a bit hesitating.",
@@ -90,7 +91,7 @@ export default {
                     header:"One-to-One",
                     subheader: "Ce que nous offrons et comment ça marche",
                     // desc:["Questionnaire d'évaluation", "Plan de formation", "Régime alimentaire", "Assistance en ligne 24h/24, 7j/7 |via email, WhatsApp et téléphone (en anglais et italien)", "Commentaires hebdomadaires", "Contrôle mensuel pour l'ajustement et la mise à jour de vos programmes"]
-                    desc:["Questionnaire d'évaluation", "Plan de formation", "Conseils nutritionnels", "Assistance", "Commentaires sur votre entraînement et votre régime alimentaire", "Contrôle pour l'ajustement et la mise à jour de vos programmes"]
+                    desc:["Questionnaire d'évaluation", "Plan de formation", "Conseils nutritionnels", "Assistance par e-mail, WhatsApp et téléphone", "Commentaires sur votre entraînement et votre régime alimentaire", "Contrôle pour l'ajustement et la mise à jour de vos programmes"]
                 },
                 plans: {
                     // Beginner:"Je voudrais essayer mais j'hésite encore un peu.",
@@ -150,7 +151,7 @@ export default {
                     header:"One-to-One",
                     subheader:"Cosa ti offriamo e come funziona",
                     // desc:["Questionario di valutazione", "Piano d'allenamento", "Piano nutrizionale", "Supporto online 24/7 |via email, WhatsApp e telefono (in inglese ed italiano)", "Feedback settimanale", "Verifica mensile per rimodulare ed aggiornare i tuoi piani"]
-                    desc:["Questionario di valutazione", "Piano d'allenamento", "Consigli nutrizionali", "Supporto", "Feedback su allenamento e dieta", "Verifica per rimodulare ed aggiornare i tuoi piani"]
+                    desc:["Questionario di valutazione", "Piano d'allenamento", "Consigli nutrizionali", "Supporto via email, WhatsApp o telefono", "Feedback su allenamento e dieta", "Verifica per rimodulare ed aggiornare i tuoi piani"]
                 },
                 plans: {
                     // Beginner:"Vorrei provare ma sono un pochino incerto.",

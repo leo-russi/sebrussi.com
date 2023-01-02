@@ -50,7 +50,7 @@ const Services = ({lang}) => {
                         <div style={{textAlign:'center'}}>
                             <p style={{fontWeight:500,fontSize:'1.25rem'}}>If interested, drop me an email to</p>
                             {/* <button className="btn btn-light font-weight-bold" style={{ color:'#000', minWidth:120}}>sebrussi@hotmail.com</button> */}
-                            <a className="btn btn-light font-weight-bold" style={{ color:'#000', minWidth:120}} href="mailto:sebrussi@hotmail.com">sebrussi@hotmail.com</a>
+                            <a className="btn btn-light font-weight-bold" style={{ color:'#000', minWidth:120}} href="mailto:sebastian@sebrussi.com">sebastian@sebrussi.com</a>
                         </div>
                     </div>
                     {/* <div style={{display:'none', justifyContent:'space-around', flexWrap:'wrap', padding:'50px 5px'}}>

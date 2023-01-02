@@ -25,7 +25,7 @@ const Products = ({lang}) => {
                     </div>
                     <div style={{flex:1}}>
                         <p style={{fontWeight: 500, fontSize: '1.25rem'}}>If interested, drop me an email to</p>
-                        <a className="btn btn-light font-weight-bold" href="mailto:sebrussi@hotmail.com" style={{color: '#000', minWidth: 120}}>sebrussi@hotmail.com</a>
+                        <a className="btn btn-light font-weight-bold" href="mailto:apparel@sebrussi.com" style={{color: '#000', minWidth: 120}}>apparel@sebrussi.com</a>
                     </div>
                 </div>
             </div>)
