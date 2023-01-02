@@ -110,6 +110,7 @@ a {
   display: none;
   width: 80%;
 }
+
 #chkTerms:checked ~ #aWwus{
 display: block !important;  
 }
