@@ -24,7 +24,10 @@ export default function Terms({lang, html}){
 
 export async function getServerSideProps(context) {
 
-    const res = await fetch(`http://localhost:3000//legal/terms-${context.locale}.html`)
+    const host = context.req.headers.host
+    let protocol = "https://"
+    if(host.startsWith('localhost')) protocol = "http://"
+    const res = await fetch(`${protocol}${host}/legal/terms-${context.locale}.html`)
     const html = await res.text()
     return {
       props: {html}, 

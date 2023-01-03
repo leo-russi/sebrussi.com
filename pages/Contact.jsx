@@ -6,7 +6,6 @@ const Contact = ({lang}) => {
     return  (
         <>
                     <div className={style.leftDiv} >
-                        {/* <img className={style.sebiImg} src={img}  /> */}
                         <picture>
                             {/* <source media="(min-aspect-ratio: 12/17)" srcSet="/images/about3-1.jpg" /> */}
                             <source media="(min-aspect-ratio: 12/17)" srcSet="/images/contact_n2_desk.jpg" />
@@ -19,7 +18,7 @@ const Contact = ({lang}) => {
                     <div className={style.rightDiv}>
                         <div className={style.motto}>
                             <div className={style.letsTalk}>Let&apos;s talk</div>
-                            <div className={style.letsTalkEmail} >sebastian@sebrussi.com</div>
+                            <div className={style.letsTalkEmail}>sebastian@sebrussi.com</div>
                         </div>
                         <div className={style.contact}>
                             <div className={style.innerContact}>
