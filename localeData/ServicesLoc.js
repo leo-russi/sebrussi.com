@@ -151,7 +151,7 @@ export default {
                     header:"One-to-One",
                     subheader:"Cosa ti offriamo e come funziona",
                     // desc:["Questionario di valutazione", "Piano d'allenamento", "Piano nutrizionale", "Supporto online 24/7 |via email, WhatsApp e telefono (in inglese ed italiano)", "Feedback settimanale", "Verifica mensile per rimodulare ed aggiornare i tuoi piani"]
-                    desc:["Questionario di valutazione", "Piano d'allenamento", "Linne guida nutrizionali", "Supporto via email, WhatsApp o telefono", "Feedback periodico su allenamento e dieta", "Verifica periodica per rimodulare ed aggiornare i tuoi piani"]
+                    desc:["Questionario di valutazione", "Programma d'allenamento", "Piano alimentare", "Supporto via email, WhatsApp o telefono", "Feedback periodico su allenamento e dieta", "Verifica periodica per rimodulare ed aggiornare i tuoi piani"]
                 },
                 plans: {
                     // Beginner:"Vorrei provare ma sono un pochino incerto.",
