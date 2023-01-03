@@ -9,10 +9,29 @@ const AppHeader = ({lang}) => {
         const router = useRouter()
         const lc = locales.header[lang]
 
-        //fake
+        //custom
         function $(selector){
             return {
-                collapse: function(style){}
+                collapse: function(style){
+                    document.querySelector(`${selector}`).style.display =  'none'
+                    document.querySelector(`#toggler-close`).style.display='none'
+                        document.querySelector(`.navbar-toggler-icon`).style.display='inline-block'
+                },
+                toggle: function(){
+                    let el = document.querySelector(`${selector}`)
+                    let styles = getComputedStyle(el, null)
+                    if(styles.display == 'none'){
+                        document.querySelector(`${selector}`).style.display='block'
+                        document.querySelector(`#toggler-close`).style.display='inline-block'
+                        document.querySelector(`.navbar-toggler-icon`).style.display='none'
+                        
+                    }
+                    else{
+                        document.querySelector(`${selector}`).style.display='none'
+                        document.querySelector(`#toggler-close`).style.display='none'
+                        document.querySelector(`.navbar-toggler-icon`).style.display='inline-block'
+                    }
+                }
             }
         }
 
@@ -21,19 +40,36 @@ const AppHeader = ({lang}) => {
           let reg = /^\/(fr|en|it)\/?/ig
           //let newpathname = window.location.pathname.replace(reg, `/${p}/`)
           let newpathname = window.location.pathname.replace(reg, "")
-          console.log(`${newpathname}`)
           router.push(`${newpathname}`, `${newpathname}`, { locale: p })
-          //router.push('/', '/', { locale: p })
         }}
 
+        const d =  {
+            stroke: 'currentcolor',
+            strokeWidth: 2,
+            strokeLinecap: 'round',
+            strokeLinejoin: 'round',
+            fill: 'none'
+        }
         return (
 
             <nav className={`navbar navbar-expand-lg fixed-top navbar-dark bg-dark ${h.navBg}`}>
                 <a className="navbar-brand" href={`/${lang}`}>
                     <img className="logo" src="/images/logo-crop.jpg" alt="logo" />
                 </a>
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button className="navbar-toggler" type="button" onClick={e =>{ $('#navbarNav').toggle() }} data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
+                    <span id="toggler-close" style={{
+    display: 'none',
+    width: '1.5em',
+    height: '1.5em',
+    verticalAlign: 'middle',
+    content: "",
+    background: 'no-repeat center center',
+    backgroundSize: '100% 100%'
+}}><svg style={d} viewBox="0 0 30 30" width="30" height="30">
+ <line x1="4" y1="4" x2="26" y2="26"></line>
+    <line x1="26" y1="4" x2="4" y2="26"></line>
+</svg></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav mr-auto" onClick={e =>{ $('#navbarNav').collapse('hide') }}>

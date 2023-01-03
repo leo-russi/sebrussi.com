@@ -1,4 +1,5 @@
 import NavLink from 'next/link'
+import Image from 'next/image'
 import locale from '../localeData/ServicesLoc'
 import styles from '../styles/services.module.css'
 
@@ -19,7 +20,7 @@ const Services = ({lang}) => {
                 {
                     [...Array(13).keys()].filter(n => n>0 && n !=5).map(item =>{
                         let tfitem = item.toString().padStart(2,'0')
-                        return <img key={`tf${tfitem}`} src={`/images/tfs/tf${tfitem}.jpg`} style={{width: '90vw', maxWidth:'500px', height:'auto', margin:'40px auto 40px auto'}} />
+                        return <Image key={`tf${tfitem}`} src={`/images/tfs/tf${tfitem}.jpg`} width={300} height={300} style={{width: '90vw', maxWidth:'500px', height:'auto', margin:'40px auto 40px auto'}} alt="trasformations" />
                     })
                 }
             </div>
