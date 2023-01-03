@@ -17,7 +17,7 @@ export default {
                     //// desc:["Evaluation questionnaire ", "Training plan", "Diet plan", "24/7 online support |via email, WhatsApp and phone (in english and italian)", "Weekly feedback", "Monthly check for adjusting and updating your plans"],
                     //desc:["Evaluation questionnaire ", "Training plan", "Nutrional advices", "Support", "Feedback on training", "Check for adjusting and updating your plans"]
                     //desc:["Dedicated support only for few (max 10 clients/month) and only in English and Italian","Evaluation questionnaire", "Training plan", "Nutrional advices","24/7 real-time (best effort) support via email, WhatsApp or phone","Daily feedback on training","Weekly check for adjusting and updating your plans"],
-                    desc:["Evaluation questionnaire","Training plan", "Nutritional guidelines","Support via email, WhatsApp or phone","Periodic feedback on training","Periodic check for adjusting and updating your plans"]
+                    desc:["Evaluation questionnaire","Workout program", "Nutritional plan","Support via email, WhatsApp or phone","Periodic feedback on training","Periodic check for adjusting and updating your plans"]
                 },
                 plans: {
                     // Beginnero:"I would like to try but I am still a bit hesitating.",
