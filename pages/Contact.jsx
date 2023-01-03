@@ -19,7 +19,7 @@ const Contact = ({lang}) => {
                     <div className={style.rightDiv}>
                         <div className={style.motto}>
                             <div className={style.letsTalk}>Let&apos;s talk</div>
-                            <div className={style.letsTalkEmail} >contact@sebrussi.com</div>
+                            <div className={style.letsTalkEmail} >sebastian@sebrussi.com</div>
                         </div>
                         <div className={style.contact}>
                             <div className={style.innerContact}>
