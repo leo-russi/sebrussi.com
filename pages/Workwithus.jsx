@@ -39,7 +39,7 @@ const Workwithus = ({lang}) => {
                                 <input id="chkTerms" type="checkbox" style={{width:18, height: 18}}  />
                                 <label htmlFor="chkTerms" style={{fontSize:'1rem'}}>&nbsp;{item.terms}</label>
                                 <br/>
-                                <a id="aWwus" className={`btn btn-success`} style={{padding:20}} ><span style={{fontWeight:'bold', fontSize:22}}>{item.btnSubmit}</span></a>
+                                <a id="aWwus" className={`btn btn-success`} style={{padding:15}} href="mailto:support@sebrussi.com"><span style={{fontWeight:'bold', fontSize:22}}>{item.btnSubmit}</span></a>
                                 {/* <a id="aWwus" disabled className="btn btn-secondary" style={{padding:20}}><span style={{fontWeight:'bold', fontSize:22}}>{item.btnSubmit}</span></a> */}
                             </div>
                         </div>
