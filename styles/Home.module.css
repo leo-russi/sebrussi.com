@@ -219,5 +219,39 @@
         object-fit: cover;
     }
 }
+
+@media only screen and (min-aspect-ratio: 5/4) {
+    
+    
+    .sebiImg{
+        min-height: calc(100vh*0.5);
+        object-fit: cover;
+    }
+}
+
+@media only screen and (min-aspect-ratio: 4/3) {
+    
+    
+    .sebiImg{
+        min-height: calc(100vh*0.6);
+        object-fit: cover;
+    }
+}
+@media only screen and (min-aspect-ratio: 17/9) {
+    
+    
+    .sebiImg{
+        height: calc(100vh*0.68);
+        object-fit: cover;
+    }
+}
+@media only screen and (min-aspect-ratio: 21/9) {
+    
+    
+    .sebiImg{
+        height: calc(100vh*0.85);
+        object-fit: cover;
+    }
+}
 /* END HOME */
 
