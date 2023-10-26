@@ -29,7 +29,7 @@ export default {
         supportuser: "Supporto",
         supportadmin: "Amministrazione dell'account",
         company:"Azienda",
-        follow:"Keep in touch"
+        follow:"Seguimi"
     },
     fr: {
         terms: "Mentions légales",
