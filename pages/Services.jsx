@@ -18,7 +18,7 @@ const Services = ({lang}) => {
             <h3>{lc.tfs}</h3>
             <div style={{paddingTop:50, display:'flex', flexDirection:'row',flexWrap:'wrap'}}>
                 {
-                    [...Array(13).keys()].filter(n => n>0 && n !=5).map(item =>{
+                    [...Array(16).keys()].filter(n => n>0 && n !=5 && n != 12).map(item =>{
                         let tfitem = item.toString().padStart(2,'0')
                         return <Image key={`tf${tfitem}`} src={`/images/tfs/tf${tfitem}.jpg`} width={300} height={300} style={{width: '90vw', maxWidth:'500px', height:'auto', margin:'40px auto 40px auto'}} alt="trasformations" />
                     })
